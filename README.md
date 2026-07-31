@@ -29,7 +29,7 @@ A real-time Face Mask Detection system built using **TensorFlow**, **Keras**, **
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 ```text
 face-mask-detection-tensorflow/
@@ -43,12 +43,15 @@ face-mask-detection-tensorflow/
 ├── mask_detector.model
 ├── requirements.txt
 ├── plot.png
+├── Mask.png
+├── No Mask.png
+├── Multiple_Faces.png
 └── README.md
 ```
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 Clone the repository
 
@@ -62,7 +65,7 @@ Move into the project directory
 cd face-mask-detection-tensorflow
 ```
 
-Install dependencies
+Install the required dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -72,13 +75,13 @@ pip install -r requirements.txt
 
 ## Run the Project
 
-Start real-time detection
+Run real-time face mask detection
 
 ```bash
 python detect_mask_video.py
 ```
 
-Train the model
+Train the deep learning model
 
 ```bash
 python train_mask_detector.py
@@ -102,20 +105,34 @@ The model was trained using TensorFlow and Keras with MobileNetV2 as the backbon
 ## 📈 Training Graph
 
 <p align="center">
-<img src="plot.png" width="650">
+<img src="plot.png" width="700">
 </p>
 
 ---
 
-## Output
+## 📷 Project Output
 
-The application performs:
+### ✅ Mask Detection
 
-- Face Detection
-- Face Mask Classification
-- Multiple Face Detection
-- Real-Time Webcam Prediction
-- Confidence Score Display
+<p align="center">
+<img src="Mask.png" width="700">
+</p>
+
+---
+
+### ❌ No Mask Detection
+
+<p align="center">
+<img src="No%20Mask.png" width="700">
+</p>
+
+---
+
+### 👥 Multiple Face Detection
+
+<p align="center">
+<img src="Multiple_Faces.png" width="700">
+</p>
 
 ---
 
@@ -124,16 +141,16 @@ The application performs:
 - Offices
 - Hospitals
 - Educational Institutions
-- Public Places
 - Airports
 - Shopping Malls
+- Public Places
 - Surveillance Systems
 
 ---
 
 ## Future Enhancements
 
-- Email/SMS alert system
+- Email and SMS alert system
 - Face recognition integration
 - Cloud deployment
 - Mobile application
