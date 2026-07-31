@@ -110,12 +110,12 @@ The model was trained using TensorFlow and Keras with MobileNetV2 as the backbon
 
 ---
 
-## Project Output
+## 📷 Project Output
 
 ### ✅ Mask Detection
 
 <p align="center">
-<img src="Mask.png" width="700">
+<img src="mask.png" width="700">
 </p>
 
 ---
@@ -123,7 +123,7 @@ The model was trained using TensorFlow and Keras with MobileNetV2 as the backbon
 ### ❌ No Mask Detection
 
 <p align="center">
-<img src="No%20Mask.png" width="700">
+<img src="no_mask.png" width="700">
 </p>
 
 ---
@@ -131,7 +131,7 @@ The model was trained using TensorFlow and Keras with MobileNetV2 as the backbon
 ### 👥 Multiple Face Detection
 
 <p align="center">
-<img src="Multiple_Faces.png" width="700">
+<img src="multiple_faces.png" width="700">
 </p>
 
 ---
