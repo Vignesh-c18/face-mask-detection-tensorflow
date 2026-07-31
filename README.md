@@ -110,7 +110,7 @@ The model was trained using TensorFlow and Keras with MobileNetV2 as the backbon
 
 ---
 
-## 📷 Project Output
+## Project Output
 
 ### ✅ Mask Detection
 
